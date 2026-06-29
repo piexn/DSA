@@ -2,8 +2,12 @@
 using namespace std;
 
 int main() {
-    int ar[5] = {1,90,40,2,34};
+    int ar[5];
     int i,j;
+    
+    for (int i = 0; i < 5; i++) {
+        cin >> ar[i];
+    } 
     
      for(i=0; i < 5; i++)
      { 
